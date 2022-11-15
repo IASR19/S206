@@ -1,0 +1,32 @@
+15:35:52.662 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:36:19.441 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:36:19.451 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1668537379447
+15:36:20.659 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:36:21.094 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.dev/api/films/1
+1 > Host: swapi.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:36:21.995 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed, http call failed after 1272 milliseconds for url: https://swapi.dev/api/films/1
+15:36:21.997 [main] ERROR com.intuit.karate - src/test/java/swapi/films/films.feature:8
+When method get
+http call failed after 1272 milliseconds for url: https://swapi.dev/api/films/1
+src/test/java/swapi/films/films.feature:8
+15:36:22.007 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:36:22.011 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.dev/api/films/2
+1 > Host: swapi.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:36:22.481 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed, http call failed after 471 milliseconds for url: https://swapi.dev/api/films/2
+15:36:22.482 [main] ERROR com.intuit.karate - src/test/java/swapi/films/films.feature:14
+When method get
+http call failed after 471 milliseconds for url: https://swapi.dev/api/films/2
+src/test/java/swapi/films/films.feature:14
+15:36:23.150 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/swapi/films/films.feature
