@@ -1,0 +1,542 @@
+18:02:18.926 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:02:20.426 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:02:21.006 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/624477c10119997961f7f078
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:02:22.248 [main] DEBUG com.intuit.karate - response time in milliseconds: 1238
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 30 Nov 2022 21:02:24 GMT
+1 < Content-Length: 0
+1 < Via: 1.1 vegur
+
+18:02:22.305 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:11
+And match $.id == 624477c10119997961f7f078
+json string can not be null or empty
+src/test/java/naruto_classico/naruto_classico.feature:11
+18:02:22.316 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:02:22.322 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:02:23.173 [main] DEBUG com.intuit.karate - response time in milliseconds: 844
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2682
+1 < Etag: W/"a7a-rdJZcRJ0fXySPijduJZ3YNFSj48"
+1 < Date: Wed, 30 Nov 2022 21:02:25 GMT
+1 < Via: 1.1 vegur
+[{"name":"Naruto Uzumaki","_id":"624477c10119997961f7f078","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"naruto-uzumaki","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d6\/Naruto_Part_I.png"},{"name":"Sasuke Uchiha","_id":"624478000119997961f7f079","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"sasuke-uchiha","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/2\/21\/Sasuke_Part_1.png"},{"name":"Sakura Haruno","_id":"624478390119997961f7f07a","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"sakura-haruno","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/6\/64\/Sakura_Part_1.png"},{"name":"Shikamaru Nara","_id":"624478e40119997961f7f07c","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"shikamaru-nara","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/4\/44\/Shikamaru_Part_I.png"},{"name":"Chōji Akimichi","_id":"6244792037fd5696fea94255","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"chōji-akimichi","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/7\/7d\/Ch%C5%8Dji_Akimichi.png"},{"name":"Ino Yamanaka","_id":"62447980a790d4fd7cd1d704","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"ino-yamanaka","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/dd\/Ino.png"}]
+18:02:23.221 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:02:23.226 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:02:24.095 [main] DEBUG com.intuit.karate - response time in milliseconds: 862
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2682
+1 < Etag: W/"a7a-rdJZcRJ0fXySPijduJZ3YNFSj48"
+1 < Date: Wed, 30 Nov 2022 21:02:26 GMT
+1 < Via: 1.1 vegur
+[{"name":"Naruto Uzumaki","_id":"624477c10119997961f7f078","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"naruto-uzumaki","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d6\/Naruto_Part_I.png"},{"name":"Sasuke Uchiha","_id":"624478000119997961f7f079","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"sasuke-uchiha","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/2\/21\/Sasuke_Part_1.png"},{"name":"Sakura Haruno","_id":"624478390119997961f7f07a","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"sakura-haruno","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/6\/64\/Sakura_Part_1.png"},{"name":"Shikamaru Nara","_id":"624478e40119997961f7f07c","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"shikamaru-nara","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/4\/44\/Shikamaru_Part_I.png"},{"name":"Chōji Akimichi","_id":"6244792037fd5696fea94255","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"chōji-akimichi","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/7\/7d\/Ch%C5%8Dji_Akimichi.png"},{"name":"Ino Yamanaka","_id":"62447980a790d4fd7cd1d704","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"ino-yamanaka","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/dd\/Ino.png"}]
+18:02:24.116 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:26
+And match $ == '#[12]'
+match failed: EQUALS
+  $ | actual array length is 6 (LIST:STRING)
+  [{"name":"Naruto Uzumaki","_id":"624477c10119997961f7f078","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https://static.wikia.nocookie.net/naruto/images/d/d2/Senju_%26_Uchiha_truce.png"},"slug":"naruto-uzumaki","picture":"https://static.wikia.nocookie.net/naruto/images/d/d6/Naruto_Part_I.png"},{"name":"Sasuke Uchiha","_id":"624478000119997961f7f079","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https://static.wikia.nocookie.net/naruto/images/d/d2/Senju_%26_Uchiha_truce.png"},"slug":"sasuke-uchiha","picture":"https://static.wikia.nocookie.net/naruto/images/2/21/Sasuke_Part_1.png"},{"name":"Sakura Haruno","_id":"624478390119997961f7f07a","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https://static.wikia.nocookie.net/naruto/images/d/d2/Senju_%26_Uchiha_truce.png"},"slug":"sakura-haruno","picture":"https://static.wikia.nocookie.net/naruto/images/6/64/Sakura_Part_1.png"},{"name":"Shikamaru Nara","_id":"624478e40119997961f7f07c","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https://static.wikia.nocookie.net/naruto/images/d/d2/Senju_%26_Uchiha_truce.png"},"slug":"shikamaru-nara","picture":"https://static.wikia.nocookie.net/naruto/images/4/44/Shikamaru_Part_I.png"},{"name":"Chōji Akimichi","_id":"6244792037fd5696fea94255","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https://static.wikia.nocookie.net/naruto/images/d/d2/Senju_%26_Uchiha_truce.png"},"slug":"chōji-akimichi","picture":"https://static.wikia.nocookie.net/naruto/images/7/7d/Ch%C5%8Dji_Akimichi.png"},{"name":"Ino Yamanaka","_id":"62447980a790d4fd7cd1d704","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https://static.wikia.nocookie.net/naruto/images/d/d2/Senju_%26_Uchiha_truce.png"},"slug":"ino-yamanaka","picture":"https://static.wikia.nocookie.net/naruto/images/d/dd/Ino.png"}]
+  '#[12]'
+
+src/test/java/naruto_classico/naruto_classico.feature:26
+18:02:24.129 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:02:24.134 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/624478e40119997961f7f07c
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:02:24.960 [main] DEBUG com.intuit.karate - response time in milliseconds: 826
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 30 Nov 2022 21:02:27 GMT
+1 < Content-Length: 0
+1 < Via: 1.1 vegur
+
+18:02:24.966 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:33
+And match $.heads[624478e40119997961f7f07c].team == 'Team Asuma'
+json string can not be null or empty
+src/test/java/naruto_classico/naruto_classico.feature:33
+18:02:24.997 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:02:25.006 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/vila
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:02:25.627 [main] DEBUG com.intuit.karate - response time in milliseconds: 619
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Security-Policy: default-src 'none'
+1 < X-Content-Type-Options: nosniff
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 150
+1 < Date: Wed, 30 Nov 2022 21:02:28 GMT
+1 < Via: 1.1 vegur
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/v1/vila</pre>
+</body>
+</html>
+
+18:02:25.634 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:39
+Then status 500
+status code was: 404, expected: 500, response time in milliseconds: 619, url: https://rf-naruto-api.herokuapp.com/api/v1/vila, response: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/v1/vila</pre>
+</body>
+</html>
+
+src/test/java/naruto_classico/naruto_classico.feature:39
+18:02:25.654 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:02:25.661 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/666666666666
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:02:26.471 [main] DEBUG com.intuit.karate - response time in milliseconds: 810
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 30 Nov 2022 21:02:29 GMT
+1 < Content-Length: 0
+1 < Via: 1.1 vegur
+
+18:02:26.476 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:46
+And match $.id == 666666666666
+json string can not be null or empty
+src/test/java/naruto_classico/naruto_classico.feature:46
+18:02:27.473 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/naruto_classico/naruto_classico.feature
+18:02:39.425 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:02:39.433 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1669842159430
+18:02:40.693 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:02:41.134 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/shinobi/624477c10119997961f7f078
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:02:41.997 [main] DEBUG com.intuit.karate - response time in milliseconds: 859
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Security-Policy: default-src 'none'
+1 < X-Content-Type-Options: nosniff
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 186
+1 < Date: Wed, 30 Nov 2022 21:02:44 GMT
+1 < Via: 1.1 vegur
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/v1/shinobi/shinobi/624477c10119997961f7f078</pre>
+</body>
+</html>
+
+18:02:42.004 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 859, url: https://rf-naruto-api.herokuapp.com/api/v1/shinobi/shinobi/624477c10119997961f7f078, response: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/v1/shinobi/shinobi/624477c10119997961f7f078</pre>
+</body>
+</html>
+
+src/test/java/naruto_classico/naruto_classico.feature:10
+18:02:42.016 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:02:42.022 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/shinobi
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:02:42.847 [main] DEBUG com.intuit.karate - response time in milliseconds: 824
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 30 Nov 2022 21:02:45 GMT
+1 < Content-Length: 0
+1 < Via: 1.1 vegur
+
+18:02:42.899 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:19
+And match $ == '#[]'
+json string can not be null or empty
+src/test/java/naruto_classico/naruto_classico.feature:19
+18:02:42.907 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:02:42.914 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/shinobi/
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:02:43.717 [main] DEBUG com.intuit.karate - response time in milliseconds: 803
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 30 Nov 2022 21:02:46 GMT
+1 < Content-Length: 0
+1 < Via: 1.1 vegur
+
+18:02:43.718 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:26
+And match $ == '#[12]'
+json string can not be null or empty
+src/test/java/naruto_classico/naruto_classico.feature:26
+18:02:43.727 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:02:43.730 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/shinobi/624478e40119997961f7f07c
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:02:44.320 [main] DEBUG com.intuit.karate - response time in milliseconds: 589
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Security-Policy: default-src 'none'
+1 < X-Content-Type-Options: nosniff
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 186
+1 < Date: Wed, 30 Nov 2022 21:02:46 GMT
+1 < Via: 1.1 vegur
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/v1/shinobi/shinobi/624478e40119997961f7f07c</pre>
+</body>
+</html>
+
+18:02:44.323 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:32
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 589, url: https://rf-naruto-api.herokuapp.com/api/v1/shinobi/shinobi/624478e40119997961f7f07c, response: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/v1/shinobi/shinobi/624478e40119997961f7f07c</pre>
+</body>
+</html>
+
+src/test/java/naruto_classico/naruto_classico.feature:32
+18:02:44.331 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:02:44.336 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/vila
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:02:45.150 [main] DEBUG com.intuit.karate - response time in milliseconds: 812
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 30 Nov 2022 21:02:47 GMT
+1 < Content-Length: 0
+1 < Via: 1.1 vegur
+
+18:02:45.154 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:39
+Then status 500
+status code was: 200, expected: 500, response time in milliseconds: 812, url: https://rf-naruto-api.herokuapp.com/api/v1/shinobi/vila, response: 
+
+src/test/java/naruto_classico/naruto_classico.feature:39
+18:02:45.178 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:02:45.188 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/shinobi/666666666666
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:02:45.814 [main] DEBUG com.intuit.karate - response time in milliseconds: 624
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Security-Policy: default-src 'none'
+1 < X-Content-Type-Options: nosniff
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 174
+1 < Date: Wed, 30 Nov 2022 21:02:48 GMT
+1 < Via: 1.1 vegur
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/v1/shinobi/shinobi/666666666666</pre>
+</body>
+</html>
+
+18:02:45.818 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:45
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 624, url: https://rf-naruto-api.herokuapp.com/api/v1/shinobi/shinobi/666666666666, response: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/v1/shinobi/shinobi/666666666666</pre>
+</body>
+</html>
+
+src/test/java/naruto_classico/naruto_classico.feature:45
+18:02:46.659 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/naruto_classico/naruto_classico.feature
+18:03:07.125 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:03:07.134 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1669842187131
+18:03:08.358 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:03:08.752 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/624477c10119997961f7f078
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:03:09.848 [main] DEBUG com.intuit.karate - response time in milliseconds: 1092
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 30 Nov 2022 21:03:12 GMT
+1 < Content-Length: 0
+1 < Via: 1.1 vegur
+
+18:03:09.887 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:11
+And match $.id == 624477c10119997961f7f078
+json string can not be null or empty
+src/test/java/naruto_classico/naruto_classico.feature:11
+18:03:09.896 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:03:09.901 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:03:10.730 [main] DEBUG com.intuit.karate - response time in milliseconds: 824
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2682
+1 < Etag: W/"a7a-rdJZcRJ0fXySPijduJZ3YNFSj48"
+1 < Date: Wed, 30 Nov 2022 21:03:13 GMT
+1 < Via: 1.1 vegur
+[{"name":"Naruto Uzumaki","_id":"624477c10119997961f7f078","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"naruto-uzumaki","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d6\/Naruto_Part_I.png"},{"name":"Sasuke Uchiha","_id":"624478000119997961f7f079","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"sasuke-uchiha","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/2\/21\/Sasuke_Part_1.png"},{"name":"Sakura Haruno","_id":"624478390119997961f7f07a","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"sakura-haruno","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/6\/64\/Sakura_Part_1.png"},{"name":"Shikamaru Nara","_id":"624478e40119997961f7f07c","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"shikamaru-nara","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/4\/44\/Shikamaru_Part_I.png"},{"name":"Chōji Akimichi","_id":"6244792037fd5696fea94255","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"chōji-akimichi","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/7\/7d\/Ch%C5%8Dji_Akimichi.png"},{"name":"Ino Yamanaka","_id":"62447980a790d4fd7cd1d704","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"ino-yamanaka","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/dd\/Ino.png"}]
+18:03:10.758 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:03:10.763 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:03:11.593 [main] DEBUG com.intuit.karate - response time in milliseconds: 827
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2682
+1 < Etag: W/"a7a-rdJZcRJ0fXySPijduJZ3YNFSj48"
+1 < Date: Wed, 30 Nov 2022 21:03:14 GMT
+1 < Via: 1.1 vegur
+[{"name":"Naruto Uzumaki","_id":"624477c10119997961f7f078","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"naruto-uzumaki","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d6\/Naruto_Part_I.png"},{"name":"Sasuke Uchiha","_id":"624478000119997961f7f079","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"sasuke-uchiha","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/2\/21\/Sasuke_Part_1.png"},{"name":"Sakura Haruno","_id":"624478390119997961f7f07a","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"sakura-haruno","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/6\/64\/Sakura_Part_1.png"},{"name":"Shikamaru Nara","_id":"624478e40119997961f7f07c","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"shikamaru-nara","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/4\/44\/Shikamaru_Part_I.png"},{"name":"Chōji Akimichi","_id":"6244792037fd5696fea94255","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"chōji-akimichi","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/7\/7d\/Ch%C5%8Dji_Akimichi.png"},{"name":"Ino Yamanaka","_id":"62447980a790d4fd7cd1d704","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/d2\/Senju_%26_Uchiha_truce.png"},"slug":"ino-yamanaka","picture":"https:\/\/static.wikia.nocookie.net\/naruto\/images\/d\/dd\/Ino.png"}]
+18:03:11.601 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:26
+And match $ == '#[12]'
+match failed: EQUALS
+  $ | actual array length is 6 (LIST:STRING)
+  [{"name":"Naruto Uzumaki","_id":"624477c10119997961f7f078","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https://static.wikia.nocookie.net/naruto/images/d/d2/Senju_%26_Uchiha_truce.png"},"slug":"naruto-uzumaki","picture":"https://static.wikia.nocookie.net/naruto/images/d/d6/Naruto_Part_I.png"},{"name":"Sasuke Uchiha","_id":"624478000119997961f7f079","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https://static.wikia.nocookie.net/naruto/images/d/d2/Senju_%26_Uchiha_truce.png"},"slug":"sasuke-uchiha","picture":"https://static.wikia.nocookie.net/naruto/images/2/21/Sasuke_Part_1.png"},{"name":"Sakura Haruno","_id":"624478390119997961f7f07a","team":"Team Kakashi","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https://static.wikia.nocookie.net/naruto/images/d/d2/Senju_%26_Uchiha_truce.png"},"slug":"sakura-haruno","picture":"https://static.wikia.nocookie.net/naruto/images/6/64/Sakura_Part_1.png"},{"name":"Shikamaru Nara","_id":"624478e40119997961f7f07c","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https://static.wikia.nocookie.net/naruto/images/d/d2/Senju_%26_Uchiha_truce.png"},"slug":"shikamaru-nara","picture":"https://static.wikia.nocookie.net/naruto/images/4/44/Shikamaru_Part_I.png"},{"name":"Chōji Akimichi","_id":"6244792037fd5696fea94255","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https://static.wikia.nocookie.net/naruto/images/d/d2/Senju_%26_Uchiha_truce.png"},"slug":"chōji-akimichi","picture":"https://static.wikia.nocookie.net/naruto/images/7/7d/Ch%C5%8Dji_Akimichi.png"},{"name":"Ino Yamanaka","_id":"62447980a790d4fd7cd1d704","team":"Team Asuma","village":{"country":"The Land of Fire","nameMeaning":"Hidden Leaf Village","name":"Konohagakure","_id":"624c240d5dfc8473f335bc68","hokages":null,"slug":"konohagakure","picture":"https://static.wikia.nocookie.net/naruto/images/d/d2/Senju_%26_Uchiha_truce.png"},"slug":"ino-yamanaka","picture":"https://static.wikia.nocookie.net/naruto/images/d/dd/Ino.png"}]
+  '#[12]'
+
+src/test/java/naruto_classico/naruto_classico.feature:26
+18:03:11.612 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:03:11.617 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/624478e40119997961f7f07c
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:03:12.282 [main] DEBUG com.intuit.karate - response time in milliseconds: 664
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 30 Nov 2022 21:03:14 GMT
+1 < Content-Length: 0
+1 < Via: 1.1 vegur
+
+18:03:12.283 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:33
+And match $.heads[624478e40119997961f7f07c].team == 'Team Asuma'
+json string can not be null or empty
+src/test/java/naruto_classico/naruto_classico.feature:33
+18:03:12.290 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:03:12.294 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/vila
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:03:12.885 [main] DEBUG com.intuit.karate - response time in milliseconds: 589
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Security-Policy: default-src 'none'
+1 < X-Content-Type-Options: nosniff
+1 < Content-Type: text/html; charset=utf-8
+1 < Content-Length: 150
+1 < Date: Wed, 30 Nov 2022 21:03:15 GMT
+1 < Via: 1.1 vegur
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/v1/vila</pre>
+</body>
+</html>
+
+18:03:12.889 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:39
+Then status 500
+status code was: 404, expected: 500, response time in milliseconds: 589, url: https://rf-naruto-api.herokuapp.com/api/v1/vila, response: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/v1/vila</pre>
+</body>
+</html>
+
+src/test/java/naruto_classico/naruto_classico.feature:39
+18:03:12.904 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:03:12.910 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rf-naruto-api.herokuapp.com/api/v1/shinobi/666666666666
+1 > Host: rf-naruto-api.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:03:13.710 [main] DEBUG com.intuit.karate - response time in milliseconds: 800
+1 < 200
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 30 Nov 2022 21:03:16 GMT
+1 < Content-Length: 0
+1 < Via: 1.1 vegur
+
+18:03:13.712 [main] ERROR com.intuit.karate - src/test/java/naruto_classico/naruto_classico.feature:46
+And match $.id == 666666666666
+json string can not be null or empty
+src/test/java/naruto_classico/naruto_classico.feature:46
+18:03:14.701 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/naruto_classico/naruto_classico.feature

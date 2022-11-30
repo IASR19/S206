@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/naruto_classico\/naruto_classico[1:6]","start":1669842188147,"end":1669842189886,"title":"src\/test\/java\/naruto_classico\/naruto_classico[1:6] 18:03:08.147-18:03:09.886 Testando se o personagem do id se chama Naruto","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/naruto_classico\/naruto_classico[2:14]","start":1669842189896,"end":1669842190749,"title":"src\/test\/java\/naruto_classico\/naruto_classico[2:14] 18:03:09.896-18:03:10.749 Verificando se a busca por shinobis retornou um array"},{"id":3,"group":1,"content":"src\/test\/java\/naruto_classico\/naruto_classico[3:21]","start":1669842190758,"end":1669842191601,"title":"src\/test\/java\/naruto_classico\/naruto_classico[3:21] 18:03:10.758-18:03:11.601 Verificando se a quantidade de shinobis está correta","className":"failed"},{"id":4,"group":1,"content":"src\/test\/java\/naruto_classico\/naruto_classico[4:28]","start":1669842191612,"end":1669842192282,"title":"src\/test\/java\/naruto_classico\/naruto_classico[4:28] 18:03:11.612-18:03:12.282 Testando o nome do time dentro do array","className":"failed"},{"id":5,"group":1,"content":"src\/test\/java\/naruto_classico\/naruto_classico[5:35]","start":1669842192289,"end":1669842192889,"title":"src\/test\/java\/naruto_classico\/naruto_classico[5:35] 18:03:12.289-18:03:12.889 Tentando acessar uma página inexistente","className":"failed"},{"id":6,"group":1,"content":"src\/test\/java\/naruto_classico\/naruto_classico[6:41]","start":1669842192903,"end":1669842193711,"title":"src\/test\/java\/naruto_classico\/naruto_classico[6:41] 18:03:12.903-18:03:13.711 Tentandor obter os dados de um shinobi inexistente","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
