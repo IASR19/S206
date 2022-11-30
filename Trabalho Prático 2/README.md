@@ -43,7 +43,7 @@ Relatório HTML com os resultados dos testes: HTML contendo os resultados é ger
 
 ##------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Questão 2:
+## Q2:
 
 1. 1 suite -> naruto_classico.feature;
 2. Automatizados
