@@ -41,7 +41,7 @@ mvn test –Dtest=NpRunner
 Relatório HTML com os resultados dos testes: HTML contendo os resultados é gerado automaticamente ao final da execução dos testes. Basta abrir o link mostrado no terminal no navegador para visualizá-lo.
 
 
-##------------------------------------------------------------------------------------------------------------------------------------------------
+## ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Q2:
 
