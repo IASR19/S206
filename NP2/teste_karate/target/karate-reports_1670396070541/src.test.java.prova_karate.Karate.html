@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.prova_karate.Karate</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-12-07 03:51:02 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[3:22]"><span>[3:22]</span> <span>Testando se o retorno de Chikorita, apresenta o ID correto</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/prova_karate/Karate.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Fazneodo teste em APIs GoRest e PokéAPI</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:22]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:22]</span>
+                <span class="scenario-name">Testando se o retorno de Chikorita, apresenta o ID correto</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>933</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:22]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:22]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def url_base_pokemon = &quot;https://pokeapi.co/api/v2&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">03:51:01.458 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:22]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def url_base_gorest = &quot;https://gorest.co.in/public/v2&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url url_base_pokemon</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &quot;pokemon-species/152&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">879</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.25">03:51:01.929 request:
+1 &gt; GET https://pokeapi.co/api/v2/pokemon-species/152
+1 &gt; Host: pokeapi.co
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:51:02.383 response time in milliseconds: 391
+1 &lt; 200
+1 &lt; Date: Wed, 07 Dec 2022 06:51:06 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Connection: keep-alive
+1 &lt; access-control-allow-origin: *
+1 &lt; Cache-Control: public, max-age=86400, s-maxage=86400
+1 &lt; etag: W/&quot;4a47-gPuAAYwY1Rw1tpVF339b5P1e2VY&quot;
+1 &lt; function-execution-id: 0ew7o8ngcmi4
+1 &lt; strict-transport-security: max-age=31556926
+1 &lt; x-cloud-trace-context: 1f78c9a603086942cafc05bef962dc02
+1 &lt; x-country-code: BR
+1 &lt; x-powered-by: Express
+1 &lt; x-served-by: cache-cgh11168-CGH
+1 &lt; x-cache: HIT
+1 &lt; x-cache-hits: 1
+1 &lt; x-timer: S1670278479.524036,VS0,VE2
+1 &lt; vary: Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+1 &lt; CF-Cache-Status: REVALIDATED
+1 &lt; Accept-Ranges: bytes
+1 &lt; Server-Timing: cf-q-config;dur=8.000002708286e-06
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=ATKprlrfvrYsk99KQYgAQQYXEO4KnElOhpWNTROKAPe6pOLlnrqsKHDS3E3LyeJPkiGIqgOk1UsWjaOuXg4ao7HO%2BIeDrK%2BXxSDKNjevUJ3WVe3aM6j8noHS2UXs&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 775b54b4edc41ab0-GRU
+{&quot;evolution_chain&quot;:{&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/evolution-chain\/79\/&quot;},&quot;genera&quot;:[{&quot;genus&quot;:&quot;はっぱポケモン&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/1\/&quot;}},{&quot;genus&quot;:&quot;잎사귀포켓몬&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/3\/&quot;}},{&quot;genus&quot;:&quot;葉子寶可夢&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hant&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/4\/&quot;}},{&quot;genus&quot;:&quot;Pokémon Feuille&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/5\/&quot;}},{&quot;genus&quot;:&quot;Laub&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/6\/&quot;}},{&quot;genus&quot;:&quot;Pokémon Hoja&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/7\/&quot;}},{&quot;genus&quot;:&quot;Pokémon Foglia&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/8\/&quot;}},{&quot;genus&quot;:&quot;Leaf Pokémon&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;}},{&quot;genus&quot;:&quot;はっぱポケモン&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/11\/&quot;}},{&quot;genus&quot;:&quot;叶子宝可梦&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hans&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/12\/&quot;}}],&quot;habitat&quot;:{&quot;name&quot;:&quot;grassland&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/pokemon-habitat\/3\/&quot;},&quot;color&quot;:{&quot;name&quot;:&quot;green&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/pokemon-color\/5\/&quot;},&quot;egg_groups&quot;:[{&quot;name&quot;:&quot;monster&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/egg-group\/1\/&quot;},{&quot;name&quot;:&quot;plant&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/egg-group\/7\/&quot;}],&quot;capture_rate&quot;:45,&quot;pokedex_numbers&quot;:[{&quot;entry_number&quot;:152,&quot;pokedex&quot;:{&quot;name&quot;:&quot;national&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/pokedex\/1\/&quot;}},{&quot;entry_number&quot;:1,&quot;pokedex&quot;:{&quot;name&quot;:&quot;original-johto&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/pokedex\/3\/&quot;}},{&quot;entry_number&quot;:1,&quot;pokedex&quot;:{&quot;name&quot;:&quot;updated-johto&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/pokedex\/7\/&quot;}}],&quot;forms_switchable&quot;:false,&quot;growth_rate&quot;:{&quot;name&quot;:&quot;medium-slow&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/growth-rate\/4\/&quot;},&quot;flavor_text_entries&quot;:[{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;gold&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/4\/&quot;},&quot;flavor_text&quot;:&quot;A sweet aroma\ngently wafts from\nthe leaf on its\fhead. It is docile\nand loves to soak\nup the sun&#39;s rays.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;silver&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/5\/&quot;},&quot;flavor_text&quot;:&quot;Its pleasantly\naromatic leaves\nhave the ability\fto check the hu­\nmidity and tem­\nperature.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;crystal&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/6\/&quot;},&quot;flavor_text&quot;:&quot;It loves to bask\nin the sunlight.\nIt uses the leaf\fon its head to\nseek out warm\nplaces.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;ruby&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/7\/&quot;},&quot;flavor_text&quot;:&quot;In battle, CHIKORITA waves its leaf\naround to keep the foe at bay.\nHowever, a sweet fragrance also wafts\ffrom the leaf, becalming the battling\nPOKéMON and creating a cozy, friendly\natmosphere all around.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;sapphire&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/8\/&quot;},&quot;flavor_text&quot;:&quot;In battle, CHIKORITA waves its leaf\naround to keep the foe at bay.\nHowever, a sweet fragrance also wafts\ffrom the leaf, becalming the battling\nPOKéMON and creating a cozy, friendly\natmosphere all around.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;emerald&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/9\/&quot;},&quot;flavor_text&quot;:&quot;It waves its leaf around to keep foes\nat bay. However, a sweet fragrance also\nwafts from the leaf, creating a friendly\natmosphere that becalms the battlers.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;firered&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/10\/&quot;},&quot;flavor_text&quot;:&quot;Its pleasantly aromatic leaves have the\nability to check the humidity and\ntemperature.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;leafgreen&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/11\/&quot;},&quot;flavor_text&quot;:&quot;A sweet aroma gently wafts from the leaf\non its head. It is docile and loves to\nsoak up the sun\u2019s rays.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;diamond&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/12\/&quot;},&quot;flavor_text&quot;:&quot;It uses the leaf on its head to\ndetermine the temperature and\nhumidity. It loves to sunbathe.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;pearl&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/13\/&quot;},&quot;flavor_text&quot;:&quot;It uses the leaf on its head to\ndetermine the temperature and\nhumidity. It loves to sunbathe.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;platinum&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/14\/&quot;},&quot;flavor_text&quot;:&quot;It uses the leaf on its head to\ndetermine the temperature and\nhumidity. It loves to sunbathe.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;heartgold&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/15\/&quot;},&quot;flavor_text&quot;:&quot;A sweet aroma gently wafts from\nthe leaf on its head. It is docile\nand loves to soak up sunrays.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;soulsilver&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/16\/&quot;},&quot;flavor_text&quot;:&quot;Its pleasantly aromatic leaf\nhas the ability to check\nhumidity and temperature.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/5\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;black&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/17\/&quot;},&quot;flavor_text&quot;:&quot;Il jauge la température et l\u2019humidité\ngrâce à la feuille sur sa tête. Il\nraffole des bains de soleil.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;black&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/17\/&quot;},&quot;flavor_text&quot;:&quot;It uses the leaf on its head to\ndetermine the temperature and\nhumidity. It loves to sunbathe.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/5\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;white&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/18\/&quot;},&quot;flavor_text&quot;:&quot;Il jauge la température et l\u2019humidité\ngrâce à la feuille sur sa tête. Il\nraffole des bains de soleil.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;white&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/18\/&quot;},&quot;flavor_text&quot;:&quot;It uses the leaf on its head to\ndetermine the temperature and\nhumidity. It loves to sunbathe.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;black-2&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/21\/&quot;},&quot;flavor_text&quot;:&quot;It uses the leaf on its head to\ndetermine the temperature and\nhumidity. It loves to sunbathe.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;white-2&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/22\/&quot;},&quot;flavor_text&quot;:&quot;It uses the leaf on its head to\ndetermine the temperature and\nhumidity. It loves to sunbathe.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/1\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/23\/&quot;},&quot;flavor_text&quot;:&quot;あたまのはっぱから　ほのかに　あまい\nかおりが　ただよう。おとなしくて\nひざしを　あびるのが　だいすき。&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/3\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/23\/&quot;},&quot;flavor_text&quot;:&quot;머리의 잎사귀에서 살짝 달콤한\n향기가 감돈다. 얌전하며\n햇볕을 쬐는 것을 매우 좋아한다.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/5\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/23\/&quot;},&quot;flavor_text&quot;:&quot;Un doux parfum émane de la feuille placée sur sa tête.\nIl est très gentil et aime dormir au soleil.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/6\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/23\/&quot;},&quot;flavor_text&quot;:&quot;Ein süßer Duft geht von dem Blatt auf seinem Kopf\naus. Es ist ruhig und liegt gerne in der Sonne.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/7\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/23\/&quot;},&quot;flavor_text&quot;:&quot;Un dulce aroma se desprende de la hoja de su\ncabeza. Es dócil y le encanta absorber los rayos\nde sol.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/8\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/23\/&quot;},&quot;flavor_text&quot;:&quot;Un dolce profumo si diffonde dalla sua testa.\nÈ docile e ama scaldarsi al sole.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/23\/&quot;},&quot;flavor_text&quot;:&quot;A sweet aroma gently wafts from the leaf on its\nhead. It is docile and loves to soak up sun rays.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/11\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;x&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/23\/&quot;},&quot;flavor_text&quot;:&quot;頭の　葉っぱから　ほのかに　甘い\n香りが　漂う。おとなしくて\n日差しを　浴びるのが　大好き。&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/1\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/24\/&quot;},&quot;flavor_text&quot;:&quot;あたまの　はっぱで　まわりの\nおんどや　しつどを　さぐる。\nひざしを　あびることが　だいすき。&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/3\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/24\/&quot;},&quot;flavor_text&quot;:&quot;머리의 잎사귀로 주위의\n온도나 습도를 살핀다.\n햇볕을 쬐는 것을 매우 좋아한다.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/5\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/24\/&quot;},&quot;flavor_text&quot;:&quot;Il jauge la température et l\u2019humidité grâce à la feuille\nsur sa tête. Il raffole des bains de soleil.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/6\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/24\/&quot;},&quot;flavor_text&quot;:&quot;Mit dem Blatt auf seinem Kopf bestimmt es die\nTemperatur und Feuchtigkeit. Es liebt Sonnenbäder.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/7\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/24\/&quot;},&quot;flavor_text&quot;:&quot;Con la hoja de su cabeza puede medir la temperatura\ny la humedad. Le encanta tomar el sol.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/8\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/24\/&quot;},&quot;flavor_text&quot;:&quot;Usa la foglia sulla sua testa per misurare la\ntemperatura e l\u2019umidità. Ama crogiolarsi al sole.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/24\/&quot;},&quot;flavor_text&quot;:&quot;It uses the leaf on its head to determine the\ntemperature and humidity. It loves to sunbathe.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/11\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;y&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/24\/&quot;},&quot;flavor_text&quot;:&quot;頭の　葉っぱで　まわりの\n温度や　湿度を　探る。\n日差しを　浴びることが　大好き。&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/1\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/25\/&quot;},&quot;flavor_text&quot;:&quot;はっぱを　ふりまわして　あいてを　いかくするが\nはっぱから　あまい　かおりが　ただようので\nおたがいに　なごやかな　ふんいきに　なるよ。&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/3\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/25\/&quot;},&quot;flavor_text&quot;:&quot;잎사귀를 휘둘러 상대를 위협하지만\n잎사귀에서 달콤한 향기가 풍겨 나와\n서로 온화한 분위기가 된다.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/5\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/25\/&quot;},&quot;flavor_text&quot;:&quot;Lorsqu\u2019il se bat, Germignon secoue sa feuille pour tenir son\nennemi à distance. Un doux parfum s\u2019en dégage également,\napaisant les Pokémon qui se battent et créant une atmosphère\nagréable et amicale.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/6\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/25\/&quot;},&quot;flavor_text&quot;:&quot;Im Kampf wedelt Endivie mit seinem Blatt, um den Feind\nfernzuhalten. Von dem Blatt geht auch ein süßlicher Duft aus,\nder die kämpfenden Pokémon beruhigt und eine gemütliche,\nfreundliche Atmosphäre schafft.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/7\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/25\/&quot;},&quot;flavor_text&quot;:&quot;Al luchar, Chikorita agita la hoja que tiene para mantener a\nraya al rival. Pero, al mismo tiempo, libera una suave fragancia\nque apacigua el encuentro y crea un ambiente agradable y de\namistad.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/8\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/25\/&quot;},&quot;flavor_text&quot;:&quot;Nella lotta, Chikorita sventola la sua foglia in modo da tenere\na bada il nemico. Tuttavia, la foglia emana anche un aroma\ndolce, che calma il Pokémon avversario, creando un\u2019atmosfera\ngradevole e rilassata tutt\u2019attorno.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/25\/&quot;},&quot;flavor_text&quot;:&quot;In battle, Chikorita waves its leaf around to keep the foe at\nbay. However, a sweet fragrance also wafts from the leaf,\nbecalming the battling Pokémon and creating a cozy, friendly\natmosphere all around.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/11\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;omega-ruby&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/25\/&quot;},&quot;flavor_text&quot;:&quot;葉っぱを　振り回して　相手を　威嚇するが\n葉っぱから　甘い　香りが　漂うので\nお互いに　和やかな　雰囲気に　なるよ。&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/1\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/26\/&quot;},&quot;flavor_text&quot;:&quot;はっぱを　ふりまわして　あいてを　いかくするが\nはっぱから　あまい　かおりが　ただようので\nおたがいに　なごやかな　ふんいきに　なるよ。&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/3\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/26\/&quot;},&quot;flavor_text&quot;:&quot;잎사귀를 휘둘러 상대를 위협하지만\n잎사귀에서 달콤한 향기가 풍겨 나와\n서로 온화한 분위기가 된다.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/5\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/26\/&quot;},&quot;flavor_text&quot;:&quot;Lorsqu\u2019il se bat, Germignon secoue sa feuille pour tenir son\nennemi à distance. Un doux parfum s\u2019en dégage également,\napaisant les Pokémon qui se battent et créant une atmosphère\nagréable et amicale.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/6\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/26\/&quot;},&quot;flavor_text&quot;:&quot;Im Kampf wedelt Endivie mit seinem Blatt, um den Feind\nfernzuhalten. Von dem Blatt geht auch ein süßlicher Duft aus,\nder das gegnerische Pokémon im Kampf beruhigt und eine\ngemütliche, freundliche Atmosphäre schafft.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/7\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/26\/&quot;},&quot;flavor_text&quot;:&quot;Al luchar, Chikorita agita la hoja que tiene para mantener a\nraya al rival. Pero, al mismo tiempo, libera una suave fragancia\nque apacigua el encuentro y crea un ambiente agradable y de\namistad.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/8\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/26\/&quot;},&quot;flavor_text&quot;:&quot;Nella lotta, Chikorita sventola la sua foglia in modo da tenere\na bada il nemico. Tuttavia, la foglia emana anche un aroma\ndolce, che calma il Pokémon avversario, creando un\u2019atmosfera\ngradevole e rilassata tutt\u2019attorno.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/26\/&quot;},&quot;flavor_text&quot;:&quot;In battle, Chikorita waves its leaf around to keep the foe at\nbay. However, a sweet fragrance also wafts from the leaf,\nbecalming the battling Pokémon and creating a cozy,\nfriendly atmosphere all around.&quot;},{&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/11\/&quot;},&quot;version&quot;:{&quot;name&quot;:&quot;alpha-sapphire&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/version\/26\/&quot;},&quot;flavor_text&quot;:&quot;葉っぱを　振り回して　相手を　威嚇するが\n葉っぱから　甘い　香りが　漂うので\nお互いに　和やかな　雰囲気に　なるよ。&quot;}],&quot;id&quot;:152,&quot;is_baby&quot;:false,&quot;order&quot;:184,&quot;generation&quot;:{&quot;name&quot;:&quot;generation-ii&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/generation\/2\/&quot;},&quot;is_legendary&quot;:false,&quot;pal_park_encounters&quot;:[{&quot;area&quot;:{&quot;name&quot;:&quot;field&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/pal-park-area\/2\/&quot;},&quot;base_score&quot;:50,&quot;rate&quot;:30}],&quot;shape&quot;:{&quot;name&quot;:&quot;quadruped&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/pokemon-shape\/8\/&quot;},&quot;is_mythical&quot;:false,&quot;base_happiness&quot;:70,&quot;names&quot;:[{&quot;name&quot;:&quot;チコリータ&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja-Hrkt&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/1\/&quot;}},{&quot;name&quot;:&quot;Chicorita&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;roomaji&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/2\/&quot;}},{&quot;name&quot;:&quot;치코리타&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ko&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/3\/&quot;}},{&quot;name&quot;:&quot;菊草葉&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hant&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/4\/&quot;}},{&quot;name&quot;:&quot;Germignon&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;fr&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/5\/&quot;}},{&quot;name&quot;:&quot;Endivie&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;de&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/6\/&quot;}},{&quot;name&quot;:&quot;Chikorita&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;es&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/7\/&quot;}},{&quot;name&quot;:&quot;Chikorita&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;it&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/8\/&quot;}},{&quot;name&quot;:&quot;Chikorita&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;en&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/9\/&quot;}},{&quot;name&quot;:&quot;チコリータ&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;ja&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/11\/&quot;}},{&quot;name&quot;:&quot;菊草叶&quot;,&quot;language&quot;:{&quot;name&quot;:&quot;zh-Hans&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/language\/12\/&quot;}}],&quot;varieties&quot;:[{&quot;pokemon&quot;:{&quot;name&quot;:&quot;chikorita&quot;,&quot;url&quot;:&quot;https:\/\/pokeapi.co\/api\/v2\/pokemon\/152\/&quot;},&quot;is_default&quot;:true}],&quot;gender_rate&quot;:1,&quot;name&quot;:&quot;chikorita&quot;,&quot;has_gender_differences&quot;:false,&quot;hatch_counter&quot;:20,&quot;form_descriptions&quot;:[],&quot;evolves_from_species&quot;:null}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.id == 152</span>
+      </div>
+    </div>
+    <div class="time-cell passed">41</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.habitat.name == &quot;grassland&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
