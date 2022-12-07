@@ -6,7 +6,7 @@
 
 > mvn test –Dtest=KarateRunner
 
-# Para executar o teste_cypresss, basta rodar o comando dentro da pasta NP2:
+# Para executar o teste_cypresss, basta rodar o comando dentro da pasta teste_cypresss:
 
 > ./node_modules/.bin/cypress open
 
